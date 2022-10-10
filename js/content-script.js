@@ -34,7 +34,8 @@ var showText = function()
 	//展示
 	text = '<p style="font-size:15px; text-align:center;"><a href="https://github.com/JerwinLiao/baiduwenkuCopy">***Made By hjliao***</a><hr><div style="text-align:center;"><button id="updateText" style="font-size:15px;margin:0 auto;">更新文本</button>'+
 '<button id="copyText" style="font-size:15px;margin-left:10px;" data-clipboard-action="copy" data-clipboard-target="#docText">复制文本</button><button id="showAll" style="font-size:15px;margin-left:10px;">展开所有</button></div><hr><pre id="docText" style="font-family:宋体,黑体;line-height:2;letter-space:1.2;">'+text+'</pre></p>'
-	$("#right-wrapper-id").html(text);
+	//$("#right-wrapper-id").html(text);
+	$("#app-right").html(text);
 	SetButtonClick();
 }
 
